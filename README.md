@@ -9,6 +9,16 @@ The notebook (written in French) runs a full data mining pipeline:
 - **Logistic regression**: multinomial model predicting the match outcome (home win / draw / away win) and the factors behind it
 - **K-Means clustering**: groups matches into profiles (K = 3), visualised with PCA
 
+## Dataset
+
+[England Premier League 2018 to 2019 Stats](https://www.kaggle.com/datasets/yusukefromjpn/england-premier-league-2018-to-2019-stats) on Kaggle (one row per match, 380 rows × 66 columns).
+
+The data file is not included in this repository. Download it from the link above and save it as:
+
+```
+data/england-premier-league-matches-2018-to-2019-stats.csv
+```
+
 ## Results
 
 | Metric (logistic regression, 3 classes) | Value |
@@ -22,16 +32,6 @@ The model uses match statistics (shots on target, possession, corners, cards), s
 ## Tech Stack
 
 Python · pandas · NumPy · SciPy · scikit-learn · mlxtend · Matplotlib · Seaborn
-
-## Dataset
-
-[England Premier League 2018 to 2019 Stats](https://www.kaggle.com/datasets/yusukefromjpn/england-premier-league-2018-to-2019-stats) on Kaggle (one row per match, 380 rows × 66 columns).
-
-The data file is not included in this repository. Download it from the link above and save it as:
-
-```
-data/england-premier-league-matches-2018-to-2019-stats.csv
-```
 
 ## Run it
 
