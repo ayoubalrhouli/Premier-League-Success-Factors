@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+venv/
+.venv/
+.env
+.DS_Store
+
+# Dataset: download from Kaggle (see README)
+data/*.csv
